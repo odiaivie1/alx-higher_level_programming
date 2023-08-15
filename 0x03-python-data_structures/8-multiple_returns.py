@@ -2,7 +2,7 @@
 # 8-multiple_returns.py
 
 def multiple_returns(sentence):
-"""Returns the length of a string and its firstcharacter."""
-if sentence == "":
-return (0, None)
-return (len(sentence(, sentence[0])
+    """Returns the length of a string and its firstcharacter."""
+    if sentence == "":
+        return (0, None)
+    return (len(sentence), sentence[0])
